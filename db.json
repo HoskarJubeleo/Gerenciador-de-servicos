@@ -1,0 +1,82 @@
+{
+  "projects": [
+    {
+      "name": "Test Project 01",
+      "budget": "10000",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "cost": 0,
+      "services": [
+        {
+          "name": "New Service 01",
+          "cost": "100000.00",
+          "description": "ele faz tudo"
+        },
+        {
+          "name": "New Service 01",
+          "cost": "100000.00",
+          "description": "ele faz tudo"
+        },
+        {
+          "name": "New Service 01",
+          "cost": "100000000000",
+          "description": "ele faz tudo"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "name": "Test Project 02",
+      "budget": "20000",
+      "category": {
+        "id": "2",
+        "name": "Desinvolvimento"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 2
+    },
+    {
+      "name": "Test Project 03",
+      "budget": "30000",
+      "category": {
+        "id": "3",
+        "name": "Desing"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 3
+    },
+    {
+      "name": "Test Project 04",
+      "budget": "40000",
+      "category": {
+        "id": "4",
+        "name": "Planejamento"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 4
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Infra"
+    },
+    {
+      "id": 2,
+      "name": "Desinvolvimento"
+    },
+    {
+      "id": 3,
+      "name": "Desing"
+    },
+    {
+      "id": 4,
+      "name": "Planejamento"
+    }
+  ]
+}

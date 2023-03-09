@@ -1,0 +1,38 @@
+.message{
+    position: absolute;
+    padding: 0.6em 1em;
+    border: solid 1px #000;
+    text-align: center;
+    border-radius: 5px;
+    font: 1.2em;
+    box-shadow: 0 0 20px 1px #000; 
+    transition-timing-function: ease-in-out;
+    color: #000;
+}
+
+.success{
+    background-color: #00FF7F;
+}
+
+.error{
+    background-color: #B22222;
+}
+
+.message::after{
+    content: ' ';
+    display: flex;
+    width: 0;
+    height: 3px;
+    left: 5.5em;
+    margin-top: 5px;
+    background-color: #000;
+    border-radius: 50px;
+    animation: desprogress-bar 5s;
+    transition-timing-function: ease-in;
+}
+
+@keyframes desprogress-bar {
+    0% {width: 100%;}
+    100%{ width: 0%; }
+
+}

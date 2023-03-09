@@ -1,0 +1,27 @@
+.home_conteiner{
+    width: 100%;
+    flex-direction: column;
+    padding: 6em 10em;
+}
+
+.home_conteiner h1{
+    font-size: 3em;
+    margin-bottom: .5em;
+    animation: identifier 2s;
+    color: #fff;
+}
+
+.home_conteiner h1 span{
+    color: #00FF00;
+}
+
+.home_conteiner p{
+    font-size: 2em;
+    margin-bottom: 1.5em;
+    color: #fff;
+}
+
+@keyframes identifier {
+    0% { color: red;}
+    100% { color: black; }
+}

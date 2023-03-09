@@ -1,0 +1,14 @@
+.project_conteiner{
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    padding: 3em 5em;
+}
+
+.title_conteiner{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    color: #fff;
+}

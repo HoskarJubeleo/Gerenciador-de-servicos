@@ -1,0 +1,41 @@
+.button_criar_projeto{
+    padding: 0.65em 1.6em;
+    border: 3px solid #00FF00;
+    background-color: #363636;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    transition: all 0.2s;
+    animation: bn13bouncy 5s infinite;
+}
+
+.button_criar_projeto:hover{
+    color: #00FF00;
+}
+
+@keyframes bn13bouncy {
+    0% {
+    transform: rotate(0deg);
+    }
+    40% {
+    transform: rotate(0deg);
+    }
+    43% {
+    transform: rotate(7deg);
+    }
+    46% {
+    transform: rotate(0deg);
+    }
+    48% {
+    transform: rotate(5deg);
+    }
+    50% {
+    transform: rotate(0deg);
+    }
+    100% {
+    transform: rotate(0deg);
+    }
+}
